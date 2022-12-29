@@ -1,0 +1,66 @@
+.calculator {
+  padding: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "display display display"
+    "numbers numbers operations";
+}
+
+.display {
+  width: 98%;
+  border: 1px solid black;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 2px;
+  grid-area: display;
+}
+
+.numbers {
+  width: 210px;
+  grid-area: numbers;
+}
+
+.opereations {
+  grid-area: operations;
+}
+
+.num {
+  background: rgb(146, 146, 146);
+}
+
+.num:hover {
+  cursor: pointer;
+  background-color: rgb(167, 167, 167);
+}
+
+.calculate {
+  width: 135px;
+  color: white;
+}
+.calculate:hover,
+.oper:hover {
+  cursor: pointer;
+  background-color: rgb(126, 20, 226);
+}
+
+.num,
+.oper,
+.calculate {
+  height: 65px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.num,
+.oper {
+  width: 65px;
+}
+
+.oper,
+.calculate {
+  background-color: blueviolet;
+  font-weight: bolder;
+}
