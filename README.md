@@ -1,3 +1,6 @@
+# Тестовое задание Calculator #
+Было разработано приложение Калькулятор с draggable window
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
